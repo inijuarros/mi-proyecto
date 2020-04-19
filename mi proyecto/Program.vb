@@ -6,8 +6,8 @@ Module Program
         Dim x As Integer = Console.ReadLine()
 
         For y As Integer = 0 To x - 1
-            Console.Write(Fibo(y))
-            Console.Write(", ")
+            Console.Write($"{Fibo(y)},")
+
         Next
 
     End Sub
